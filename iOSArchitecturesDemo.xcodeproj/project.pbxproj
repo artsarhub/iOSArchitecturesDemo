@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8989359031C0364417890BAA /* Pods_iOSArchitecturesDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEA6AF9F424A0D5873D2723 /* Pods_iOSArchitecturesDemo.framework */; };
 		AC3425C4269AC8DF0077365E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC3425C3269AC8DF0077365E /* .gitignore */; };
+		AC3425C9269ACF2C0077365E /* WhatsNewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3425C8269ACF2C0077365E /* WhatsNewDetailViewController.swift */; };
+		AC3425CB269ACF620077365E /* WhatsNewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3425CA269ACF620077365E /* WhatsNewDetailView.swift */; };
 		DB30385A2694C1FC005A53AE /* UIPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3038592694C1FC005A53AE /* UIPreviewView.swift */; };
 		DB3038602694C82C005A53AE /* AppDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB30385F2694C82C005A53AE /* AppDetailHeaderView.swift */; };
 		DB3038632694C838005A53AE /* AppDetailHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3038622694C838005A53AE /* AppDetailHeaderViewController.swift */; };
@@ -40,6 +42,8 @@
 		8EEA6AF9F424A0D5873D2723 /* Pods_iOSArchitecturesDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSArchitecturesDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A067E149D296BC0C249FD11F /* Pods-iOSArchitecturesDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSArchitecturesDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSArchitecturesDemo/Pods-iOSArchitecturesDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AC3425C3269AC8DF0077365E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AC3425C8269ACF2C0077365E /* WhatsNewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewDetailViewController.swift; sourceTree = "<group>"; };
+		AC3425CA269ACF620077365E /* WhatsNewDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNewDetailView.swift; sourceTree = "<group>"; };
 		DB3038592694C1FC005A53AE /* UIPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPreviewView.swift; sourceTree = "<group>"; };
 		DB30385F2694C82C005A53AE /* AppDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailHeaderView.swift; sourceTree = "<group>"; };
 		DB3038622694C838005A53AE /* AppDetailHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailHeaderViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		AC3425C5269ACDF40077365E /* WhatsNewDatail */ = {
+			isa = PBXGroup;
+			children = (
+				AC3425C7269ACEDD0077365E /* View */,
+				AC3425C6269ACED40077365E /* Controller */,
+			);
+			path = WhatsNewDatail;
+			sourceTree = "<group>";
+		};
+		AC3425C6269ACED40077365E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC3425C8269ACF2C0077365E /* WhatsNewDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC3425C7269ACEDD0077365E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC3425CA269ACF620077365E /* WhatsNewDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DB3038582694C1EF005A53AE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +129,7 @@
 		DB30385B2694C807005A53AE /* Childs */ = {
 			isa = PBXGroup;
 			children = (
+				AC3425C5269ACDF40077365E /* WhatsNewDatail */,
 				DB30385C2694C810005A53AE /* AppHeaderDetail */,
 			);
 			path = Childs;
@@ -464,6 +494,7 @@
 			files = (
 				E0E1D399203AE62E0011E01A /* ITunesApp.swift in Sources */,
 				DB3038602694C82C005A53AE /* AppDetailHeaderView.swift in Sources */,
+				AC3425C9269ACF2C0077365E /* WhatsNewDetailViewController.swift in Sources */,
 				DB3038662694D44F005A53AE /* SearchPresenter.swift in Sources */,
 				DB30386C2694D850005A53AE /* SearchAssembly.swift in Sources */,
 				DB3038632694C838005A53AE /* AppDetailHeaderViewController.swift in Sources */,
@@ -479,6 +510,7 @@
 				E0E1D2952034A3350011E01A /* SearchViewController.swift in Sources */,
 				E0E1D39F203AE7400011E01A /* ImageDownloader.swift in Sources */,
 				F8114FBE22A3DBF400102830 /* SearchView.swift in Sources */,
+				AC3425CB269ACF620077365E /* WhatsNewDetailView.swift in Sources */,
 				E0E1D395203AE5E20011E01A /* ITunesSearchResult.swift in Sources */,
 				E0E1D392203AE58B0011E01A /* ITunesSearchService.swift in Sources */,
 				E0E1D2932034A3350011E01A /* AppDelegate.swift in Sources */,
