@@ -54,3 +54,5 @@ class AppDetailHeaderViewController: UIViewController {
     }
     
 }
+
+// Заглушка к уроку 8
